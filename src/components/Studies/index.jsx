@@ -9,7 +9,7 @@ const AccordionItem = (props) => {
   const { header, id, text, title, date, city } = faq;
 
   return (
-    <div className="border border-gray-300 rounded-xl mb-3 overflow-hidden">
+    <div id="studies" className="border border-gray-300 rounded-xl mb-3 overflow-hidden">
       <div>
         <div
           className={`flex items-center cursor-pointer justify-between p-3 ${

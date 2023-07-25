@@ -48,9 +48,9 @@ const ProjectCard = ({project}) => {
 
 const ProjectsSection = () => {
   return (
-    <>
+    <div id="projects" className="w-5/6">
       <h2 className='text-[50px] font-black mb-12'>Proyectos</h2>
-      <p className="w-5/6 pb-14 text-xl">A lo largo de mi trayectoria académica, he construido diversos proyectos. A continuación, te presento algunos de los más interesantes, junto con sus correspondientes repositorios en GitHub:</p>
+      <p className="w-full pb-14 text-xl">A lo largo de mi trayectoria académica, he construido diversos proyectos. A continuación, te presento algunos de los más interesantes, junto con sus correspondientes repositorios en GitHub:</p>
       <div className="flex flex-wrap justify-center items-center gap-5 mb-10">
         {projects.map((project, index) => (
           <ProjectCard
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 

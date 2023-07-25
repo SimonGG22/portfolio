@@ -26,10 +26,10 @@ const Navbar = () => {
 						<p className='font-bold text-lg'>Simón | Front-end Developer</p>
 					</a>
 					<div className='flex items-center gap-4'>
-						<a href='/'>About</a>
-						<a href='/'>Studies</a>
-						<a href='/'>Projects</a>
-						<a href='/'>Contact me</a>
+						<a href='#about'>About</a>
+						<a href='#studies'>Studies</a>
+						<a href='#projects'>Projects</a>
+						<a href='#contactMe'>Contact me</a>
 					</div>
 				</div>
     </nav>
