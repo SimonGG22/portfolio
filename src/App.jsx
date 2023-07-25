@@ -5,12 +5,14 @@ import { About } from './components/About'
 import { Skills } from './components/Skills'
 import { ProjectsSection } from './components/Projects'
 import { ContactMe } from './components/ContactMe'
+import { StarsBackground } from './components/StarsBackground'
 
 function App() {
 
   return (
     <div className='flex flex-col items-center justify-center z-0'>
       <Navbar />
+      <StarsBackground />
       <Hero />
       <About />
       <Studies />
