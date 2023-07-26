@@ -47,15 +47,15 @@ const ContactMe = () => {
   }
 
     return (
-        <div id="contactMe" className="flex flex-col items-center justify-center mb-14">
-            <h2 className='w-5/6 text-[50px] text-center font-black mb-12'>Contáctame</h2>
-            <div>
+        <div id="contactMe" className="flex flex-col items-center justify-center w-5/6 mb-14">
+            <h2 className='text-[50px] text-center md:text-start font-black mb-12'>Contáctame</h2>
+            <div className="w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className='bg-gray-gradient p-8 flex flex-col gap-8 rounded-3xl'
+                className='bg-gray-gradient p-8 flex flex-col justify-center items-center gap-8 rounded-3xl'
               >
-                <label className='flex flex-col'>
+                <label className='flex flex-col w-full md:w-6/7'>
                   <span className='text-white font-medium mb-4'>Nombre</span>
                   <input
                     type='text'
@@ -66,7 +66,7 @@ const ContactMe = () => {
                     className='bg-zinc-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                   />
                 </label>
-                <label className='flex flex-col'>
+                <label className='flex flex-col w-full md:w-6/7'>
                   <span className='text-white font-medium mb-4'>Correo Electronico</span>
                   <input
                     type='email'
@@ -77,7 +77,7 @@ const ContactMe = () => {
                     className='bg-zinc-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                   />
                 </label>
-                <label className='flex flex-col'>
+                <label className='flex flex-col w-full md:w-6/7'>
                   <span className='text-white font-medium mb-4'>Mensaje</span>
                   <textarea
                     rows={7}

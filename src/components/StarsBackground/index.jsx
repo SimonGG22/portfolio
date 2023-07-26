@@ -70,7 +70,7 @@ const StarsBackground = () => {
   }, []); 
 
   return (
-    <div className='absolute top-0 left-0 w-full h-[700px] -z-10 pointer-events-none overflow-hidden'>
+    <div className='absolute top-0 left-0 w-full h-[1200px] md:h-[700px] -z-10 pointer-events-none overflow-hidden'>
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>

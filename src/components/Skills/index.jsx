@@ -30,8 +30,8 @@ const SkillCard = ({skill}) => {
 const Skills = () => {  
   
 	return (
-		<div className='mb-12 flex flex-col justify-center items-center'>
-			<h2 className='w-5/6 text-[50px] text-center font-black mb-12'>Tecnologias y herramientas</h2>
+		<div className='w-5/6 mb-12 flex flex-col justify-center items-center'>
+			<h2 className='w-full text-[40px] md:text-[50px] text-center md:text-start font-black mb-12'>Tecnologias y herramientas</h2>
 			<VerticalTimeline>
 				{skills.map((skill) => (
 				<SkillCard

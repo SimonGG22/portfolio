@@ -17,6 +17,7 @@ const ProjectCard = ({project}) => {
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
+                onClick={() => window.open("https://github.com/SimonGG22/toDo-App", "_blank")}
                 src={project.icon}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
@@ -49,8 +50,8 @@ const ProjectCard = ({project}) => {
 const ProjectsSection = () => {
   return (
     <div id="projects" className="w-5/6">
-      <h2 className='text-[50px] font-black mb-12'>Proyectos</h2>
-      <p className="w-full pb-14 text-xl">A lo largo de mi trayectoria académica, he construido diversos proyectos. A continuación, te presento algunos de los más interesantes, junto con sus correspondientes repositorios en GitHub:</p>
+      <h2 className='text-center md:text-start text-[50px] font-black mb-12'>Proyectos</h2>
+      <p className="w-full text-center md:text-start pb-14 text-xl">A lo largo de mi trayectoria académica, he construido diversos proyectos. A continuación, te presento algunos de los más interesantes, junto con sus correspondientes repositorios en GitHub:</p>
       <div className="flex flex-wrap justify-center items-center gap-5 mb-10">
         {projects.map((project, index) => (
           <ProjectCard

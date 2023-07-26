@@ -33,7 +33,7 @@ const AccordionItem = (props) => {
           active === id ? "h-auto" : "h-0"
         } transition-height ease-in-out duration-350`}
       >
-        <div className="p-3">
+        <div className="p-3 flex flex-col gap-2">
           <p className="text-lg font-bold text-white leading-6">{title}</p>
           <p className="text-lg font-light text-white/80 leading-6">{city}</p>
           <p className="text-lg font-light text-white/80 leading-6">{date}</p>
@@ -57,7 +57,7 @@ const Studies = () => {
 
   return (
     <div className="w-5/6 shadow-md bg-transparent rounded mb-14 overflow-hidden">
-      <h2 className="text-[50px] font-black mb-3">Mis Estudios</h2>
+      <h2 className="text-center md:text-start text-[50px] font-black mb-3">Mis Estudios</h2>
       <div className="w-full">
         {estudies.map((faq, index) => (
           <AccordionItem

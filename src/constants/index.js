@@ -34,7 +34,7 @@ const estudies = [
     city: 'Colombia',
     date:'2022 - Actualidad',
 		header: "Platzi",
-		text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+		text: 'Platzi es una de las plataformas de educación profesional en línea más grandes de América Latina, fundada en 2011 por Freddy Vega y Christian Van der Henst. Hoy tienen 3 millones de estudiantes activos en más de 140 países, miles de cursos y áreas de estudio enfocadas en el desarrollo de habilidades y conocimientos que requieren las grandes empresas del mundo.'
 	},
 	{
 		id: 2,
@@ -42,7 +42,7 @@ const estudies = [
     city: 'Bogotá Colombia',
     date:'2015 - 2020',
 		header: "Universidad Santo Tomas",
-		text: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. `
+		text: 'El Ingeniero Mecánico profesional de la Universidad Santo Tomás se puede desempeñar en empresas de cualquier sector económico, especialmente el secundario o industrial, en actividades que requieran el diseño, fabricación, instalación y mantenimiento de maquinaria y equipo. Así mismo, puede hacerse cargo de la gestión y supervisión de dichos proyectos de acuerdo con los recursos y normatividad existentes.'
 	},	
 ]
 
@@ -146,6 +146,8 @@ const projects = [
       },
     ],
     icon:github,
+    repositoryLink:"https://github.com/SimonGG22/toDo-App",
+    projectLink:"https://simongg22.github.io/toDo-App/"
   },
   {
     image:pokedux,

@@ -10,7 +10,7 @@ import { StarsBackground } from './components/StarsBackground'
 function App() {
 
   return (
-    <div className='flex flex-col items-center justify-center z-0'>
+    <div className='flex flex-col items-center justify-center w-full z-0'>
       <Navbar />
       <StarsBackground/>
       <Hero />
