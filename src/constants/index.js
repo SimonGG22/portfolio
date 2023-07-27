@@ -132,6 +132,8 @@ const projects = [
       },
     ],
     icon:github,
+    repositoryLink:"https://github.com/SimonGG22/portfolio",
+    projectLink:""
   },
   {
     image:todoapp,
@@ -165,6 +167,8 @@ const projects = [
       },
     ],
     icon:github,
+    repositoryLink:"",
+    projectLink:""
   },
   {
     image:reactecommerce,
@@ -182,6 +186,8 @@ const projects = [
       },
     ],
     icon:github,
+    repositoryLink:"https://github.com/SimonGG22/React-eCommerce",
+    projectLink:"https://64c2ae8ac9d3250093e01ce6--vocal-tulumba-e42a11.netlify.app/"
   },
   {
     image:caminoacasa,
@@ -202,7 +208,9 @@ const projects = [
       },
     ],
     icon:github,
-    underConstruction:'Proyecto en construcción'
+    underConstruction:'Proyecto en construcción',
+    repositoryLink:"",
+    projectLink:""
   }
 ]
 

@@ -5,7 +5,7 @@ const ProjectCard = ({project}) => {
   return (
     <div className="flex items-center justify-center">
       <div className='bg-gray-gradient p-5 rounded-2xl sm:w-[360px] w-4/5'>
-        <div className='relative w-full h-[230px]'>
+        <div onClick={() => project.projectLink ? window.open(project.projectLink, "_blank") : null} className='relative w-full h-[230px] cursor-pointer'>
           <img
             src={project.image}
             alt='project_image'
@@ -14,13 +14,13 @@ const ProjectCard = ({project}) => {
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
             >
               <img
-                onClick={() => window.open("https://github.com/SimonGG22/toDo-App", "_blank")}
+                onClick={() => project.repositoryLink ? window.open(project.repositoryLink, "_blank") : null}
                 src={project.icon}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-1/2 h-1/2 object-contain z-10'
               />
             </div>
           </div>
