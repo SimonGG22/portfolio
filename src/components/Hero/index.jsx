@@ -5,7 +5,7 @@ import pdf from '../../assets/cvPortafolio.pdf'
 const Hero = () => {
   return (
     <>
-      <section className='flex flex-col-reverse md:grid md:grid-cols-3 mt-[100px] mx-4 md:mx-10 '>
+      <section className='flex flex-col-reverse justify-center items-center md:grid md:grid-cols-3 mt-[100px] mx-4 md:mx-10 '>
         <div className="md:col-span-2 text-center md:text-end md:order-first">
           <h1 className="text-[70px] font-black">Hola Soy <span className="bg-clip-text text-transparent bg-gold-gradient">Simón</span></h1>
           <h2 className="text-[35px] font-semibold">Ingeniero y <br /> desarrollador web front-end</h2>
@@ -14,7 +14,7 @@ const Hero = () => {
           </button>
         </div>
         <Tilt option={defaultOptions} className="flex justify-center md:col-span-1 md:ml-8 md:mt-20">
-          <img src='src/assets/logos/Logo.png' alt='Logo' />
+          <img src='../../assets/logos/Logo.png' alt='Logo' />
         </Tilt>
       </section>
     </>

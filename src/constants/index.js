@@ -187,7 +187,7 @@ const projects = [
     ],
     icon:github,
     repositoryLink:"https://github.com/SimonGG22/React-eCommerce",
-    projectLink:"https://64c2ae8ac9d3250093e01ce6--vocal-tulumba-e42a11.netlify.app/"
+    projectLink:"https://react-ecommerce-dummy.netlify.app/"
   },
   {
     image:caminoacasa,
