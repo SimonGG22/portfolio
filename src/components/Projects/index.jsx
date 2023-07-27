@@ -4,7 +4,7 @@
 const ProjectCard = ({project}) => {
   return (
     <div className="flex items-center justify-center">
-      <div className='bg-gray-gradient p-5 rounded-2xl sm:w-[360px] w-4/5'>
+      <div className='bg-gray-gradient p-5 rounded-2xl sm:w-[360px] w-full'>
         <div onClick={() => project.projectLink ? window.open(project.projectLink, "_blank") : null} className='relative w-full h-[230px] cursor-pointer'>
           <img
             src={project.image}
