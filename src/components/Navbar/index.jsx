@@ -28,7 +28,7 @@ const Navbar = () => {
 						<img className='w-5 h-6' src={logo} alt='Logo' />
 						<p className='font-bold text-lg'>Simón | Front-end Developer</p>
 					</a>
-					<div className='flex items-center gap-4'>
+					<div className='hidden md:flex items-center gap-4'>
 						<a href='#about'>About</a>
 						<a href='#studies'>Studies</a>
 						<a href='#projects'>Projects</a>
