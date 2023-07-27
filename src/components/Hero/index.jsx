@@ -1,6 +1,7 @@
 import { Tilt } from 'react-tilt';
 import { defaultOptions } from '../../constants';
 import pdf from '../../assets/cvPortafolio.pdf'
+import logo from '../../assets/Logo.png'
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
           </button>
         </div>
         <Tilt option={defaultOptions} className="flex justify-center md:col-span-1 md:ml-8 md:mt-20">
-          <img src='../../assets/logos/Logo.png' alt='Logo' />
+          <img src={logo} alt='Logo' />
         </Tilt>
       </section>
     </>
