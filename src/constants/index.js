@@ -167,8 +167,8 @@ const projects = [
       },
     ],
     icon:github,
-    repositoryLink:"",
-    projectLink:""
+    repositoryLink:"https://github.com/SimonGG22/pokedux",
+    projectLink:"https://simongg22.github.io/pokedux/"
   },
   {
     image:reactecommerce,
