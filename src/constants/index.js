@@ -12,6 +12,8 @@ import caminoacasa from '../assets/projects/caminoacasa.png'
 import pokedux from '../assets/projects/pokedux.png'
 import reactecommerce from '../assets/projects/reactecommerce.png'
 import todoapp from '../assets/projects/todoapp.png'
+import tictactoe from '../assets/projects/tictactoe.png'
+import connect4 from '../assets/projects/connect4.png'
 
 // Default react-tilt options
 const defaultOptions = {
@@ -211,7 +213,47 @@ const projects = [
     underConstruction:'Proyecto en construcción',
     repositoryLink:"",
     projectLink:""
-  }
+  },
+  {
+    image:tictactoe,
+    title:'Tic Tac Toe',
+    description:'Es un juego clásico para dos jugadores que se juega en una cuadrícula de 3x3. El objetivo es crear una fila de tres de sus símbolos en horizontal, vertical o diagonal, antes de que lo haga el oponente.',
+    tecnologies:[
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwind",
+      },
+      {
+        name: "Vite",
+      },
+    ],
+    icon:github,
+    repositoryLink:"https://github.com/SimonGG22/tic-tac-toe",
+    projectLink:"https://simongg22.github.io/tic-tac-toe/",
+    new:true
+  },
+  {
+    image:connect4,
+    title:'Conecta 4',
+    description:'Conecta cuatro es un juego de estrategia para dos jugadores en el que el objetivo será ser el primero en conectar cuatro discos propios seguidos, ya sea en horizontal, vertical o diagonal.',
+    tecnologies:[
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwind",
+      },
+      {
+        name: "Vite",
+      },
+    ],
+    icon:github,
+    repositoryLink:"https://github.com/SimonGG22/connect-4",
+    projectLink:"https://simongg22.github.io/connect-4/",
+    new:true
+  },
 ]
 
 export { defaultOptions, estudies, skills, projects }

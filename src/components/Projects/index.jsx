@@ -12,7 +12,16 @@ const ProjectCard = ({project}) => {
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-between m-3 card-img_hover'>
+
+            {
+              project.new && (
+                <div className="relative -left-5 flex justify-center items-center w-14 h-8 bg-gold-gradient font-bold text-sm" style={{clipPath: 'polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%)'}}>
+                  NEW
+                </div>
+              )
+            }
+
             <div
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
             >
