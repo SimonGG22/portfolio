@@ -1,6 +1,6 @@
 import { Tilt } from 'react-tilt';
 import { defaultOptions } from '../../constants';
-import pdf from '../../assets/HojaDeVida.pdf'
+import pdf from '../../assets/CVportfolio.pdf'
 import logo from '../../assets/Logo.png'
 
 const Hero = () => {
